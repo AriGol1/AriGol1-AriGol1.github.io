@@ -1,0 +1,62 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+}
+body{
+		font-size: 20pt;
+		color: black;
+}
+p{
+	color: DimGray;
+
+	font-family: 'Lora', serif;
+	margin: 30px 0;
+}
+span{
+	background-color: grey;
+}
+
+@font-face{
+	fount-family: 'WindsorC';
+	scr: url(../'font/WindsorC.ttf');
+	font-weight: normal;
+    font-style: normal;
+}
+	span{
+    font-family: 'WindsorC';
+		}
+	
+p{
+    color:Tan;
+	font-size: 20pt;
+	font-family: Prata;
+	}
+h3{
+	color:DarkSlateGrey;
+	font-size: 36pt;
+	font-family: 'Philosopher';
+	}
+div{
+	width: 70%;
+	margin: auto;
+	background-color: grey;
+	padding:50px;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+	}
+	a{
+		text-decoration: none;
+		color: red;
+		display:inline-block;
+		margin: 20px 0;
+		border-bottom:1px solid transparent;
+		transition: 0.4s ease-in;
+	}
+	a:hover{
+		border-bottom-color:#204051;
+	}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
